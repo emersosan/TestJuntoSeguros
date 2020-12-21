@@ -1,0 +1,20 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="TestJuntoSeguros.XUnitTest" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="TestJuntoSeguros.XUnitTest" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="AccountTest" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
